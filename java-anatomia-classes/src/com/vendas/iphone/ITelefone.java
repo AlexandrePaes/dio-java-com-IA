@@ -1,4 +1,4 @@
-// package com.iphone;
+package com.vendas.iphone;
 
 public interface ITelefone {
    void ligar();

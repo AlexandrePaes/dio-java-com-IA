@@ -1,4 +1,4 @@
-//package com.iphone;
+package com.vendas.iphone;
 
 public interface INavegador {
    void abrirPagina(String url);

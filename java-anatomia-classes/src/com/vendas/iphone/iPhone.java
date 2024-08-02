@@ -1,3 +1,4 @@
+package com.vendas.iphone;
 
 public class iPhone implements IReprodutor, ITelefone, INavegador {
     private String modelo;
