@@ -8,11 +8,13 @@ public class ContaTerminal {
         
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite seu Nome Completo: ");
+        System.out.println("Digite seu Nome Completo: ");
         String nome = scanner.next();
+        String sobrenome = scanner.next();
+        System.out.println(nome.concat(sobrenome));
 
         System.out.println("Digite seu Endereco: ");
-        String endereco = scanner.next();
+        String endereco = scanner.nextLine();
 
         System.out.print("Digite seu Depósito Inicial: ");
         double deposito = scanner.nextDouble();
